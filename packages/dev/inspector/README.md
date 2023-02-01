@@ -61,12 +61,11 @@ Several tools are available (from left to right) :
 * Popup - Undock the inspector into a separate window.
 * Pause - Pause the automatic update of properties, allowing to manually update one.
 
-## Contribute
+## Building the Inspector
 
-From the tools/gulp folder:
-```
+From the root folder, execute the following commands:
+
+```sh
 npm install
-gulp inspector
+npm run build
 ```
-
-
